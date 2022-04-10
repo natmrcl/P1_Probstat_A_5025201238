@@ -6,7 +6,9 @@ lambda<-4.5
 paste("Hasil: ", dpois(x,lambda))
 
 #b. simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
-
+set.seed(0)
+n<-365
+hist(rpois(n,lambda),main="Histogram Distribusi Poisson",labels=T)
 #c. dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 
 #d. Nilai Rataan (µ) dan Varian (s²) dari Distribusi Poisson
