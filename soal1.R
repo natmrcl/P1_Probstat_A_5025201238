@@ -17,8 +17,6 @@ mean(rgeom(random,p)==3)
 
 #c. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
 
-#poin a = 0.128, poin b = 0.1041
-
 #d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
 
 #e. Nilai Rataan (µ) dan Varian (s²) dari Distribusi Geometrik.
