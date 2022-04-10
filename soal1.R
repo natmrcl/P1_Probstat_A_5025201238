@@ -1,0 +1,28 @@
+#1.Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan
+#  seseorang yang menghadiri acara vaksinasi sebelumnya.
+
+#a. Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi
+#sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ?
+#(distribusi Geometrik)
+
+x<-3
+p<-0.20
+paste("Hasil: ", dgeom(x-1,p))
+
+#b. mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi
+#geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
+
+random<-10000
+mean(rgeom(random,p)==3)
+
+#c. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
+
+#poin a = 0.128, poin b = 0.1041
+
+#d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
+
+#e. Nilai Rataan (µ) dan Varian (s²) dari Distribusi Geometrik.
+rataan=1/p
+paste("Nilai Rataan(µ): ", rataan)
+varian=(1-p)/p^2
+paste("Nilai Varian(s²): ", varian)
