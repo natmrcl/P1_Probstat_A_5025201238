@@ -32,6 +32,11 @@ Berdasarkan hasil yang bisa dilihat, dapat disimpulkan bahwa pada poin b distrib
 menghasilkan nilai yang berubah-ubah, sedangkan pada poin a, nilainya akan tetap
 ```
 d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
+```
+hist(rgeom(random, p))
+```
+Hasilnya adalah sebagai berikut<br>
+![image](https://user-images.githubusercontent.com/91374949/162625418-dd4cfa24-6c59-4ad6-9298-3fcbb91c7f04.png)
 
 e. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
 ```
