@@ -106,7 +106,9 @@ Hasilnya adalah sebagai berikut<br>
 ![3b](https://user-images.githubusercontent.com/91374949/162617451-9051c966-e46f-4c7e-90a5-733d3f5175c3.png)
 
 c. dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
-
+```
+Jika hasil dari poin a dikalikan dengan 365, maka hasilnya akan mendekati hasil pada poin b walaupun tidak sama persis.
+```
 d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
 ```
 rataan=varian=lambda
