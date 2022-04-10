@@ -18,6 +18,7 @@ mean(rgeom(random,p)==3)
 #c. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
 
 #d. Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
+hist(rgeom(random, p))
 
 #e. Nilai Rataan (µ) dan Varian (s²) dari Distribusi Geometrik.
 rataan=1/p
